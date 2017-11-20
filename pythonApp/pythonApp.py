@@ -8,8 +8,6 @@ websiteURL = 'http://localhost:2500/api/Data'
 r = requests.get(websiteURL)
 
 clipboard =  Clipboard()
-
-
 clipboard.get()
 clipboard.add()
 print (r.text)
