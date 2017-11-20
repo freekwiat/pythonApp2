@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>32843480-5005-47fb-92df-f3836eac669a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pythonApp.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,12 @@
     <Compile Include="Clipboard.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pythonApp.py" />
+    <Compile Include="DataApiClient.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="main.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
