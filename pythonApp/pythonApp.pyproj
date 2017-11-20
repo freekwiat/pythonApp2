@@ -24,6 +24,7 @@
     <Compile Include="Clipboard.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ClipboardTest.py" />
     <Compile Include="DataApiClient.py">
       <SubType>Code</SubType>
     </Compile>
