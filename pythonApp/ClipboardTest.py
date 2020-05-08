@@ -8,7 +8,7 @@ class Test_ClipboardTest(unittest.TestCase):
         self.clipboard = None
     def test_clipboard_add(self):
         #Arrange
-        content = "this is content"
+        content = "this is a content"
         #Act
         self.clipboard.add(content)
         #Assert
