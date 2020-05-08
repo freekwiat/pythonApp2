@@ -1,7 +1,7 @@
 import requests
 
 class DataApiClient(object):
-    """http data api client"""
+    """http data the api client"""
     apiURL = ""
     def __init__ (self):
     # http://dataapi20171117020514.azurewebsites.net/api/data
